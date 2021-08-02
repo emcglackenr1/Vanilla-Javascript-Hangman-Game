@@ -1,4 +1,4 @@
-var Word = [
+var Game_Word = [
 "dog",
   "cat"
 ]
@@ -10,7 +10,7 @@ let guessed = [];
 let wordStatus = null;
 
 function randomWord() {
-  answer = Word[Math.floor(Math.random() * Word.length)];
+  answer = Game_Word[Math.floor(Math.random() * Game_Word.length)];
 }
 
 function generateButtons() {
