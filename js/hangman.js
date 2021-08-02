@@ -1,19 +1,6 @@
 var Word = [
-“Monkey”,
-“Partner”,
-“Treaty”,
-“Uniformity”,
-“Wink”,
-“Candle”,
-“Chart”,
-“Democrat”,
-“Dispute”,
-“Examiner”,
-“Graduate”,
-“Product”,
-“Cube”,
-“Street”,
-“Flash”
+"dog",
+  "cat"
 ]
 
 let answer = '';
