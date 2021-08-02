@@ -1,6 +1,13 @@
 var Game_Word = [
-"dog",
-  "cat"
+"Witch”,
+"Worm”,
+"Yard”,
+"Angel”,
+"Nose”,
+"Truck”,
+"Olympics”,
+"Peanut”
+
 ]
 
 let answer = '';
