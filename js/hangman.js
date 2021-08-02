@@ -1,18 +1,20 @@
 var Word = [
-	"python",
-	"javascript",
-	"mongodb",
-	"json",
-	"java",
-	"html",
-	"css",
-	"c",
-	"csharp",
-	"golang",
-	"kotlin",
-	"php",
-	"sql",
-	"ruby"
+“Monkey” ,
+“Partner” ,
+“Treaty” ,
+“Uniformity” ,
+“Wink” ,
+“Candle” ,
+“Chart” ,
+“Democrat” ,
+“Dispute” ,
+“Examiner” ,
+“Graduate” ,
+“Hard-Hat” ,
+“Product” ,
+“Cube” ,
+“Street” ,
+“Flash”
 ]
 
 let answer = '';
