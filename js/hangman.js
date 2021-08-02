@@ -1,12 +1,12 @@
 var Game_Word = [
-"Witch”,
-"Worm”,
-"Yard”,
-"Angel”,
-"Nose”,
-"Truck”,
-"Olympics”,
-"Peanut”
+"Witch",
+"Worm",
+"Yard",
+"Angel",
+"Nose",
+"Truck",
+"Olympics",
+"Peanut"
 
 ]
 
