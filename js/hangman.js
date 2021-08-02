@@ -10,7 +10,6 @@ var Word = [
 “Dispute”,
 “Examiner”,
 “Graduate”,
-“Hard-Hat”,
 “Product”,
 “Cube”,
 “Street”,
