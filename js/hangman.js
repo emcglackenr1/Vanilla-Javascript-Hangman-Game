@@ -1,14 +1,18 @@
-var gameWords = [
-        “Assistant” ,
-        “Day” ,
-        “Freezing” ,
-        “Gastropod” ,
-        “Ischemia” ,
-        “Monkey” ,
-        “Partner” ,
-        “Treaty” ,
-        “Uniformity” ,
-        “Wink” 
+var programming_languages = [
+	"python",
+	"javascript",
+	"mongodb",
+	"json",
+	"java",
+	"html",
+	"css",
+	"c",
+	"csharp",
+	"golang",
+	"kotlin",
+	"php",
+	"sql",
+	"ruby"
 ]
 
 let answer = '';
@@ -18,7 +22,7 @@ let guessed = [];
 let wordStatus = null;
 
 function randomWord() {
-  answer = gameWords[Math.floor(Math.random() * gameWords.length)];
+  answer = programming_languages[Math.floor(Math.random() * programming_languages.length)];
 }
 
 function generateButtons() {
