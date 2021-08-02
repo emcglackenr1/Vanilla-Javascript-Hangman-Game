@@ -1,4 +1,4 @@
-var programming_languages = [
+var Word = [
 	"python",
 	"javascript",
 	"mongodb",
@@ -22,7 +22,7 @@ let guessed = [];
 let wordStatus = null;
 
 function randomWord() {
-  answer = programming_languages[Math.floor(Math.random() * programming_languages.length)];
+  answer = Word[Math.floor(Math.random() * Word.length)];
 }
 
 function generateButtons() {
