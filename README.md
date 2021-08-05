@@ -17,4 +17,3 @@ I have currently only made a few simple changes such as replacing the game words
 <p align="center">
   <img src="https://user-images.githubusercontent.com/64873698/128432583-b63b8475-a223-4cb2-b319-799902566e60.png" width="200"  alt="Tutorial Version">
 </p>
-
