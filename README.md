@@ -8,13 +8,13 @@ I have currently only made a few simple changes such as replacing the game words
 <h3> My Version </h3>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/64873698/128432660-56a93a60-d306-4a93-8459-7b9df761faea.jpg" width="400"  alt="My Version">
+  <img src="https://user-images.githubusercontent.com/64873698/128432660-56a93a60-d306-4a93-8459-7b9df761faea.jpg" width="200"  alt="My Version">
 </p>
 
 
 
 <h3> Original Art from Tutorial </h3>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/64873698/128432583-b63b8475-a223-4cb2-b319-799902566e60.png" width="400"  alt="Tutorial Version">
+  <img src="https://user-images.githubusercontent.com/64873698/128432583-b63b8475-a223-4cb2-b319-799902566e60.png" width="200"  alt="Tutorial Version">
 </p>
 
