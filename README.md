@@ -37,13 +37,16 @@ I have currently only made a few simple changes to the art, styling and code I f
 <h4>Lose</h4>
 <table>
   <tr>
-  <td> Win </td> 
-    <img src="https://user-images.githubusercontent.com/64873698/131189413-9b6253a6-09ba-4d14-a131-d7bf48455a4e.jpg" width="200"  alt="Hangman Image Win">
-  </tr>
-    <tr>
-  <td> Lose </td> 
+    <th> Win </th>
+      <th> Lose </th> 
+   <tr> 
+   <td>
+       <img src="https://user-images.githubusercontent.com/64873698/131189413-9b6253a6-09ba-4d14-a131-d7bf48455a4e.jpg" width="200"  alt="Hangman Image Win">
+   </td>
+   <td>
     <img src="https://user-images.githubusercontent.com/64873698/131189413-9b6253a6-09ba-4d14-a131-d7bf48455a4e.jpg" width="200"  alt="Hangman Image Lose">
-  </tr>
+   </td>
+   </tr>
 </table>
 
 
