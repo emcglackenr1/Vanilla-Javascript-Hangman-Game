@@ -34,13 +34,16 @@ I have currently only made a few simple changes to the art, styling and code I f
   <img src="https://user-images.githubusercontent.com/64873698/131161155-373b82f1-3daa-403b-abe5-a05f884292eb.jpg" width="200"  alt="Hangman 6 Guesses Taken">
 </p>
 
-<h4>Win</h4>
-<p align="center">
-    <img src=" " width="200"  alt="Hangman Image Win">
-</p>
 <h4>Lose</h4>
-<p align="center">
+<table>
+  <tr>
+  <td> Win </td> 
+    <img src="https://user-images.githubusercontent.com/64873698/131189413-9b6253a6-09ba-4d14-a131-d7bf48455a4e.jpg" width="200"  alt="Hangman Image Win">
+  </tr>
+    <tr>
+  <td> Lose </td> 
     <img src="https://user-images.githubusercontent.com/64873698/131189413-9b6253a6-09ba-4d14-a131-d7bf48455a4e.jpg" width="200"  alt="Hangman Image Lose">
-  </p>
+  </tr>
+</table>
 
 
