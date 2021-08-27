@@ -1,3 +1,5 @@
+![lost](https://user-images.githubusercontent.com/64873698/131189377-46ff8202-4bb3-4845-85cd-d97110c79858.jpg)
+![lost](https://user-images.githubusercontent.com/64873698/131189390-08f86618-08be-4c60-94f1-fd6154423e71.jpg)
 <p>
 <h1> Javascript-Hangman-Game </h1>
 Available to view here: https://emcglackenr1.github.io/Vanilla-Javascript-Hangman-Game/
@@ -36,6 +38,7 @@ I have currently only made a few simple changes to the art, styling and code I f
 </p>
 <h4>Lose</h4>
 <p align="center">
-    <img src=" " width="200"  alt="Hangman Image Lose">
+    <img src="https://user-images.githubusercontent.com/64873698/131189413-9b6253a6-09ba-4d14-a131-d7bf48455a4e.jpg" width="200"  alt="Hangman Image Lose">
   </p>
+
 
