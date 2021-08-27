@@ -1,7 +1,7 @@
 <p align="center">
 
-  <img src="https://user-images.githubusercontent.com/64873698/131161134-3c006101-38e0-48ed-8c21-f0b61a66c535.jpg" width="300" height="200" alt="Hangman 1 Guess Taken">
-      <img src="https://user-images.githubusercontent.com/64873698/131189413-9b6253a6-09ba-4d14-a131-d7bf48455a4e.jpg" width="300"  height="200" alt="Hangman Image Lose">
+  <img src="https://user-images.githubusercontent.com/64873698/131161134-3c006101-38e0-48ed-8c21-f0b61a66c535.jpg" width="300" height="250" alt="Hangman 1 Guess Taken">
+      <img src="https://user-images.githubusercontent.com/64873698/131189413-9b6253a6-09ba-4d14-a131-d7bf48455a4e.jpg" width="300"  height="250" alt="Hangman Image Lose">
 
 </p>
 
