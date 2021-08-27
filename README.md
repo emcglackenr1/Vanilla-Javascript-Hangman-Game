@@ -1,7 +1,6 @@
 <p>
 <h1> Vanilla-Javascript-Hangman-Game </h1>
-Available to view here:
-<a href="https://emcglackenr1.github.io/Vanilla-Javascript-Hangman-Game/"></a>
+Available to view here: https://emcglackenr1.github.io/Vanilla-Javascript-Hangman-Game/"
 </p>
 <p>
 Pure Javavascript Hangman Game. Inspired by Codepen projects such as: 
