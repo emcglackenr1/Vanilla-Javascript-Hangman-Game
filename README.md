@@ -58,7 +58,7 @@ I have currently only made a few simple changes to the art, styling and code I f
       <th> Lose </th> 
    <tr> 
    <td>
-       <img src="https://user-images.githubusercontent.com/64873698/131189413-9b6253a6-09ba-4d14-a131-d7bf48455a4e.jpg" width="200"  alt="Hangman Image Win">
+       <img src="https://user-images.githubusercontent.com/64873698/131195318-08784260-96cd-4fd7-aa12-43fded006a26.jpg" width="200"  alt="Hangman Image Win">
    </td>
    <td>
     <img src="https://user-images.githubusercontent.com/64873698/131189413-9b6253a6-09ba-4d14-a131-d7bf48455a4e.jpg" width="200"  alt="Hangman Image Lose">
