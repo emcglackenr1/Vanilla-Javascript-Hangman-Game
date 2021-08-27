@@ -1,7 +1,7 @@
 body {
   background: rgb(132,165,171);
-background: radial-gradient(circle, rgba(132,165,171,0.8694215044173984) 23%, rgba(95,95,175,1) 73%, rgba(82,80,117,1) 92%);  
-  margin: 0 auto;
+  background: radial-gradient(circle, rgba(132,165,171,0.8694215044173984) 23%, rgba(95,95,175,1) 73%, rgba(82,80,117,1) 92%);  
+  margin: 0;
   padding: 0;
   border: 0;
   font: inherit;
@@ -24,19 +24,17 @@ background: radial-gradient(circle, rgba(132,165,171,0.8694215044173984) 23%, rg
   font-size: 300%;
 }
 
-.reset 
-{
+.reset {
   padding: 2%;
-  heigh: auto;
   width: 20%;
   background-image: radial-gradient(circle, #89a0d4, #7a94ce, #708bc4, #6781bb, #5d78b1, #566fa1, #506692, #4a5e83);
   border-style: outset;
   border-color: black;
   border-width: 10%;
-      width: 25%;
-    height: 5%;
-    font-size: large;
-    border-radius: 20%;
+  width: 25%;
+  height: 5%;
+  font-size: large;
+  border-radius: 20%;
 }
 
 button:hover {
@@ -44,16 +42,16 @@ button:hover {
 }
 
 .keyboard-button {
-    width: 8%;
-    height: 5%;
-    text-size: x-large;
-    border-radius: 20%;
+  width: 8%;
+  height: 5%;
+  text-size: x-large;
+  border-radius: 20%;
   border-width: 5%;
- background-image: radial-gradient(circle, #c3c9d6, #b2b8c6, #9ea5b2, #8f96a2, #818792, #656a73);
+  background-image: radial-gradient(circle, #c3c9d6, #b2b8c6, #9ea5b2, #8f96a2, #818792, #656a73);
   border-color: black;
-    color: black;
-    font-size: large;
-    transform: translateY(-6px);
+  color: black;
+  font-size: large;
+  transform: translateY(-6px);
   margin: 1%;
 }
 
