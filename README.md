@@ -1,5 +1,11 @@
 <h1> Vanilla-Javascript-Hangman-Game </h1>
-Pure Javavascript Hangman Game. Inspired by tutorial by simonjsuh.
+<p>
+Pure Javavascript Hangman Game. Inspired by Codepen projects such as: 
+<a href="https://codepen.io/simonjsuh">simonjsuh</a>,
+<a href="https://codepen.io/tallulahh">tallulahh</a>
+and
+<a href="https://codepen.io/mevko">mevko.</a>
+</p>
 
 I am currently in the process of adding to this to make the game my own. I intend to use this as a starting point to make my own version from scratch. 
 
