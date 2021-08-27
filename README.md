@@ -1,6 +1,10 @@
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/64873698/131161134-3c006101-38e0-48ed-8c21-f0b61a66c535.jpg" width="200" alt="Hangman 1 Guess Taken">
-  <img src="https://user-images.githubusercontent.com/64873698/131189377-46ff8202-4bb3-4845-85cd-d97110c79858.jpg" width="200" alt="Hangman Image Lose">
+<table align="center">
+  <tr>
+  <td><img src="https://user-images.githubusercontent.com/64873698/131161134-3c006101-38e0-48ed-8c21-f0b61a66c535.jpg" width="200" alt="Hangman 1 Guess Taken"></td>
+  <td><img src="https://user-images.githubusercontent.com/64873698/131189377-46ff8202-4bb3-4845-85cd-d97110c79858.jpg" width="200" alt="Hangman Image Lose"></td>
+  <td><img src="https://user-images.githubusercontent.com/64873698/131195318-08784260-96cd-4fd7-aa12-43fded006a26.jpg" width="200" alt="Hangman Image Win!"></td>
+  </tr>
+</table>
 
 <p>
 <h1> Javascript-Hangman-Game </h1>
