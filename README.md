@@ -23,8 +23,7 @@ I have currently only made a few simple changes to the art, styling and code I f
 
 <h3> Hangman Art </h3>
 
-<p align="center">
-<table>
+<table align="center">
   <tr>
         <th> 1 Guess </th>
       <th> 2 Guesses </th>
@@ -36,11 +35,17 @@ I have currently only made a few simple changes to the art, styling and code I f
   <td> <img src="https://user-images.githubusercontent.com/64873698/131161138-188fa0f0-5926-42db-9b08-7ca98bb439e5.jpg" width="200"  alt="Hangman 2 Guesses Taken"></td>
   <td> <img src="https://user-images.githubusercontent.com/64873698/131161141-44c3eb7f-9f9c-4d58-b20a-30589238d711.jpg" width="200"  alt="Hangman 3 Guesses Taken"></td>
 </tr>
+    <tr>
+        <th> 4 Guess </th>
+      <th> 5 Guesses </th>
+    <th> 6 Guesses </th>
+  </tr>
 <tr>
   <td> <img src="https://user-images.githubusercontent.com/64873698/131161145-60f7729d-72f4-4c12-9c14-1a86a02141aa.jpg" width="200"  alt="Hangman 4 Guesses Taken"></td>
   <td> <img src="https://user-images.githubusercontent.com/64873698/131161153-df1e96f1-3437-43c1-92d6-0b41b17fb221.jpg" width="200"  alt="Hangman 5 Guesses Taken"></td>
   <td> <img src="https://user-images.githubusercontent.com/64873698/131161155-373b82f1-3daa-403b-abe5-a05f884292eb.jpg" width="200"  alt="Hangman 6 Guesses Taken"></td>
 </tr>
+</table>
 
 <p align="center">
 <table>
