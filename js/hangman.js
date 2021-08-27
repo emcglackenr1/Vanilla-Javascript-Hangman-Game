@@ -18,6 +18,8 @@ var Game_Word = [
 
 ]
 
+
+
 let answer = '';
 let maxWrong = 6;
 let mistakes = 0;
@@ -25,14 +27,14 @@ let guessed = [];
 let wordStatus = null;
 
 function randomWord() {
-  answer = Game_Word[Math.floor(Math.random() * Game_Word.length)];
+answer = Game_Word[Math.floor(Math.random() * Game_Word.length)];
 }
 
 function generateButtons() {
   let buttonsHTML = 'abcdefghijklmnopqrstuvwxyz'.split('').map(letter =>
     `
       <button
-        class="btn btn-lg btn-primary m-2"
+        class="btn btn-lg btn-secondary m-2"
         id='` + letter + `'
         onClick="handleGuess('` + letter + `')"
       >
@@ -71,7 +73,7 @@ function checkIfGameWon() {
 function checkIfGameLost() {
   if (mistakes === maxWrong) {
     document.getElementById('wordSpotlight').innerHTML = 'The answer was: ' + answer;
-    document.getElementById('keyboard').innerHTML = 'You Lost!!!';
+    document.getElementById('keyboard').innerHTML = 'You lose :( ';
   }
 }
 
@@ -101,3 +103,5 @@ document.getElementById('maxWrong').innerHTML = maxWrong;
 randomWord();
 generateButtons();
 guessedWord();
+
+var guesses = maxWrong - Mistakes;
