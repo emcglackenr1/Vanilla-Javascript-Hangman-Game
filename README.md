@@ -1,5 +1,7 @@
-![lost](https://user-images.githubusercontent.com/64873698/131189377-46ff8202-4bb3-4845-85cd-d97110c79858.jpg)
-![lost](https://user-images.githubusercontent.com/64873698/131189390-08f86618-08be-4c60-94f1-fd6154423e71.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/64873698/131161134-3c006101-38e0-48ed-8c21-f0b61a66c535.jpg" width="200" alt="Hangman 1 Guess Taken">
+  <img src="https://user-images.githubusercontent.com/64873698/131189377-46ff8202-4bb3-4845-85cd-d97110c79858.jpg" width="200" alt="Hangman Image Lose">
+
 <p>
 <h1> Javascript-Hangman-Game </h1>
 Available to view here: https://emcglackenr1.github.io/Vanilla-Javascript-Hangman-Game/
@@ -29,7 +31,7 @@ I have currently only made a few simple changes to the art, styling and code I f
 <p align="center">
   <img src="https://user-images.githubusercontent.com/64873698/131161145-60f7729d-72f4-4c12-9c14-1a86a02141aa.jpg" width="200"  alt="Hangman 4 Guesses Taken">
   <img src="https://user-images.githubusercontent.com/64873698/131161153-df1e96f1-3437-43c1-92d6-0b41b17fb221.jpg" width="200"  alt="Hangman 5 Guesses Taken">
-  <img src="https://user-images.githubusercontent.com/64873698/131161155-373b82f1-3daa-403b-abe5-a05f884292eb.jpg" width="200"  alt="Hangman You Lose">
+  <img src="https://user-images.githubusercontent.com/64873698/131161155-373b82f1-3daa-403b-abe5-a05f884292eb.jpg" width="200"  alt="Hangman 6 Guesses Taken">
 </p>
 
 <h4>Win</h4>
