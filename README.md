@@ -14,7 +14,7 @@ I have currently only made a few simple changes to the art and code, such as rep
 <h3> Hangman Art </h3>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/64873698/131161134-3c006101-38e0-48ed-8c21-f0b61a66c535.jpg" width="200"  padding="5%" alt="Hangman 1 Guess Taken">
+  <img src="https://user-images.githubusercontent.com/64873698/131161134-3c006101-38e0-48ed-8c21-f0b61a66c535.jpg" width="200" alt="Hangman 1 Guess Taken">
 
   <img src="https://user-images.githubusercontent.com/64873698/131161138-188fa0f0-5926-42db-9b08-7ca98bb439e5.jpg" width="200"  alt="Hangman 2 Guess Taken">
 
