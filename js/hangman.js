@@ -57,7 +57,7 @@ function checkIfGameLost() {
   if (mistakes === maxWrong) {
     document.getElementById('wordSpotlight').innerHTML = 'The answer was: ' + answer;
     document.getElementById('keyboard').innerHTML = 'You lose :( ';
-    document.getElementById('hangmanPic').src = './images/' + mistakes + '.jpg';
+    document.getElementById('hangmanPic').src = './images/lost.jpg';
   }
 }
 
