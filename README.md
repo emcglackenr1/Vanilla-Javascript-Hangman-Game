@@ -7,12 +7,15 @@ and
 <a href="https://codepen.io/mevko">mevko.</a>
 </p>
 
-I am currently in the process of adding to this to make the game my own. I intend to use this as a starting point to make my own version from scratch. 
+<p>
 
-I have currently only made a few simple changes to the art and code, such as replacing the game words, changing a variables and replacing the images shown with my own ones created in <b> Adobe illustrator</b>.
+I am currently in the process of adding to this and editing it.  
+
+I have currently only made a few simple changes to the art, styling and code I found. I created images in <b> Adobe illustrator</b> that can be seen below.
+
 
 <h3> Hangman Art </h3>
-
+</p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/64873698/131161134-3c006101-38e0-48ed-8c21-f0b61a66c535.jpg" width="200" alt="Hangman 1 Guess Taken">
   <img src="https://user-images.githubusercontent.com/64873698/131161138-188fa0f0-5926-42db-9b08-7ca98bb439e5.jpg" width="200"  alt="Hangman 2 Guesses Taken">
