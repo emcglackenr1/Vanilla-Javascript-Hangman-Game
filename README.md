@@ -47,8 +47,7 @@ I have currently only made a few simple changes to the art, styling and code I f
 </tr>
 </table>
 
-<p align="center">
-<table>
+<table align="center">>
   <tr>
     <th> Win </th>
       <th> Lose </th> 
@@ -61,5 +60,4 @@ I have currently only made a few simple changes to the art, styling and code I f
    </td>
    </tr>
 </table>
-</p>
 
