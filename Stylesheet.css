@@ -1,8 +1,13 @@
 body {
-  background: rgb(132,165,171);
+background: rgb(132,165,171);
 background: radial-gradient(circle, rgba(132,165,171,0.8694215044173984) 23%, rgba(95,95,175,1) 73%, rgba(82,80,117,1) 92%);  
 }
 
 #cont1 {
   background: white;  
+}
+
+.text-center {
+  padding: 2% 10% 2% 10% ;
+  text-align: center;
 }
