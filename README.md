@@ -50,7 +50,7 @@ I have currently only made a few simple changes to the art, styling and code I f
 </tr>
 </table>
 
-<table align="center">>
+<table align="center">
   <tr>
     <th> Win </th>
       <th> Lose </th> 
