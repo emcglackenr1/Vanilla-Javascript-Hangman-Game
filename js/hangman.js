@@ -1,4 +1,4 @@
-var Game_Word = ["witch","worm","yard","angel","nose", "truck","olympics","peanut","balloon","cube","street","flash","smell","foundation","blush","cardboard"
+var Game_Word = ["witch","worm","yard","angel","nose","truck","peanut","balloon","cube","street","flute","foundation","cardboard","ball","car","bird","stick","apple"
 ]
 
 
