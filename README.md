@@ -15,7 +15,7 @@ Pure Javavascript Hangman Game. Inspired by Codepen projects such as:
 <a href="https://codepen.io/tallulahh">tallulahh</a>
 and
 <a href="https://codepen.io/mevko">mevko.</a>
-  As well as content from Isaacks, J. (2018) <a href="https://www.manning.com/books/get-programming-with-javascript-next"><i> Get Programming with JavaScript Next: New Features of ECMAScript 2015, 2016, and Beyond</i></a> New York: Manning Publications Co.
+  As well as content from: Isaacks, J. (2018) <a href="https://www.manning.com/books/get-programming-with-javascript-next"><i> Get Programming with JavaScript Next</i></a>
 </p>
 
 <p>
