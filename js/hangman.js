@@ -16,7 +16,7 @@ function generateButtons() {
   let buttonsHTML = 'abcdefghijklmnopqrstuvwxyz'.split('').map(letter =>
     `
       <button
-        class="btn btn-lg btn-secondary m-2"
+        class="keyboard-button"
         id='` + letter + `'
         onClick="handleGuess('` + letter + `')"
       >
@@ -50,14 +50,12 @@ function checkIfGameWon() {
   if (wordStatus === answer) {
     document.getElementById('keyboard').innerHTML = '<span class="text1">You Win!</span>';
   }
-  
 }
 
 function checkIfGameLost() {
   if (mistakes === maxWrong) {
-    document.getElementById('wordSpotlight').innerHTML = 'The answer was: ' + answer;
-    document.getElementById('keyboard').innerHTML = 'You lose :( ';
-    document.getElementById('hangmanPic').src = './images/lost.jpg';
+    document.getElementById('wordSpotlight').innerHTML = '<span class="text1"> The answer was: </span>' + answer;
+    document.getElementById('keyboard').innerHTML = '<span class="text1">You lose :( </span>';
   }
 }
 
