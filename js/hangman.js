@@ -2,7 +2,6 @@ var Game_Word = ["witch","worm","yard","angel","nose","truck","peanut","balloon"
 ]
 
 
-
 let answer = '';
 let maxWrong = 6;
 let mistakes = 0;
@@ -49,8 +48,9 @@ function updateHangmanPicture() {
 
 function checkIfGameWon() {
   if (wordStatus === answer) {
-    document.getElementById('keyboard').innerHTML = 'You Won!!!';
+    document.getElementById('keyboard').innerHTML = '<span class="text1">You Win!</span>';
   }
+  
 }
 
 function checkIfGameLost() {
