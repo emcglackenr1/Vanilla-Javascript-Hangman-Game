@@ -31,11 +31,11 @@ The site is responsive so that it works on any type of device. The layout, text 
 
 <table align="center">
   <tr>
+    <th> Keyboard Mobile </th> 
     <th> Keyboard Desktop </th>
-      <th> Keyboard Mobile </th> 
    <tr> 
-<td><img src="https://user-images.githubusercontent.com/64873698/131227878-a9928c98-ac76-44d0-9605-9083e8ee0c04.JPG" width="auto" alt="Keyboard desktop"></td>
 <td> <img src="https://user-images.githubusercontent.com/64873698/131227845-e89ca6c7-63db-4786-b8d1-06ed86469ee6.JPG" width="200" alt="Keyboard mobile"></td>
+<td><img src="https://user-images.githubusercontent.com/64873698/131227878-a9928c98-ac76-44d0-9605-9083e8ee0c04.JPG" width="auto" alt="Keyboard desktop"></td>
      
 </p>
 
