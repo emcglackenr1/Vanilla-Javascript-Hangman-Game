@@ -33,13 +33,16 @@ The site is responsive so that it works on any type of device. The layout, text 
   <tr>
     <th> Keyboard Mobile </th> 
     <th> Keyboard Desktop </th>
+  </tr>
    <tr> 
-<td> <img src="https://user-images.githubusercontent.com/64873698/131227845-e89ca6c7-63db-4786-b8d1-06ed86469ee6.JPG" width="auto" alt="Keyboard mobile"></td>
+<td><img src="https://user-images.githubusercontent.com/64873698/131227845-e89ca6c7-63db-4786-b8d1-06ed86469ee6.JPG" width="auto" alt="Keyboard mobile"></td>
 <td><img src="https://user-images.githubusercontent.com/64873698/131227878-a9928c98-ac76-44d0-9605-9083e8ee0c04.JPG" width="auto" alt="Keyboard desktop"></td>
-     
+   </tr>
+  </table>
 </p>
 
 <p>
+  
 <h3> Hangman Art </h3>
 
 <table align="center">
