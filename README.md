@@ -15,7 +15,7 @@ and
 </p>
 
 <p>
-  As well as content from: Isaacks, J. (2018) <a href="https://www.manning.com/books/get-programming-with-javascript-next"><i> Get Programming with JavaScript Next</i></a>
+  As well as content from: Isaacks, J.D. (2018) <a href="https://www.manning.com/books/get-programming-with-javascript-next"><i> Get Programming with JavaScript Next</i></a>
 </p>
 
 <p>
