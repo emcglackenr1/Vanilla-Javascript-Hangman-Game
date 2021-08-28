@@ -42,9 +42,9 @@ I have currently only made a few simple changes to the art, styling and code I f
   <td> <img src="https://user-images.githubusercontent.com/64873698/131161141-44c3eb7f-9f9c-4d58-b20a-30589238d711.jpg" width="200"  alt="Hangman 3 Guesses Taken"></td>
 </tr>
     <tr>
-        <th> 4 Guess </th>
-      <th> 5 Guesses </th>
-    <th> 6 Guesses </th>
+        <th> 4 Mistakes </th>
+      <th> 5 Mistakes </th>
+    <th> 6 Game Lost </th>
   </tr>
 <tr>
   <td> <img src="https://user-images.githubusercontent.com/64873698/131161145-60f7729d-72f4-4c12-9c14-1a86a02141aa.jpg" width="200"  alt="Hangman 4 Guesses Taken"></td>
