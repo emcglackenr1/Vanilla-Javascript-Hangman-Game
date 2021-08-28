@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,11 +18,14 @@
     <div class="text-center"> 
       <h1 class="card-text" id="title-card">Hangman</h1>
     <div class="card-text">
-      <p class="card-text"> Guess the word letter by letter! <br>
-      You have 6 chances to guess and save the stickman </p>
-        <div class="text-center"> Chances remaining <span id='mistakes'>0</span> of <span id='maxWrong'></span></div>
+      <p class="card-text"> Guess the word letter by letter </p>
+        <div class="text-center"> <span id='mistakes'>0</span> of <span id='maxWrong'></span>Lives Used </div>
 
-        <img id='hangmanPic' src="./images/0.jpg" alt="[.Hangman Image.]">
+       <!---Real Image <img id='hangmanPic' src="./images/0.jpg" alt="[.Hangman Image.]">-->
+      
+        <!---Placeholder image for testing--> 
+      <img id='hangmanPic' src="https://via.placeholder.com/300.png/09f/fff" alt="[.Hangman Image.]"> 
+      
         <p id="wordSpotlight">The word to be guessed goes here</p>
         <div id="keyboard"></div>
         <button class="reset" onClick="reset()">Reset</button>
