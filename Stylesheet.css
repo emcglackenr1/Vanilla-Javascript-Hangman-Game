@@ -17,6 +17,10 @@ body {
   padding: 2% 0 2% 0;
 }
 
+.text1 {
+  padding: 10%;
+}
+
 #title-card {
   background: rgba(255,255,255,.5);
   margin: 0% -20% 10% -20%;
