@@ -54,8 +54,8 @@ function checkIfGameWon() {
 
 function checkIfGameLost() {
   if (mistakes === maxWrong) {
-    document.getElementById('wordSpotlight').innerHTML = '<span class="text1"> The answer was: </span>' + answer;
-    document.getElementById('keyboard').innerHTML = '<span class="text1">You lose :( </span>';
+     document.getElementById('wordSpotlight').innerHTML = '<span class="text1">R.I.P. <br> You lose :( </span>';
+    document.getElementById('keyboard').innerHTML = '<span class="text1"> The answer was: </span>' + answer;
   }
 }
 
@@ -87,3 +87,5 @@ generateButtons();
 guessedWord();
 
 var guesses = maxWrong - Mistakes;
+
+
