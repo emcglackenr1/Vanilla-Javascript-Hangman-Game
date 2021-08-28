@@ -2,7 +2,7 @@
 <h1> Javascript-Hangman-Game </h1>
 Available to view here: https://emcglackenr1.github.io/Vanilla-Javascript-Hangman-Game/
 </p>
-<p align="center">
+<p>
   <img src="https://user-images.githubusercontent.com/64873698/131227622-6f2ca891-4797-4d63-b6da-cf5cf566363d.JPG" width="auto" alt="Hangman Design Start Game">
       <img src="https://user-images.githubusercontent.com/64873698/131227623-cd5cb41d-8985-411b-89c2-5ed54fd645b5.JPG" width="auto" alt="Hangman Design Mid Game">
 </p>
