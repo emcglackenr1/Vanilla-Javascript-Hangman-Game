@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/64873698/131227622-6f2ca891-4797-4d63-b6da-cf5cf566363d.JPG" width="200" alt="Hangman Design Start Game">
-      <img src="https://user-images.githubusercontent.com/64873698/131227623-cd5cb41d-8985-411b-89c2-5ed54fd645b5.JPG" width="200" alt="Hangman Design Mid Game">
+  <img src="https://user-images.githubusercontent.com/64873698/131227622-6f2ca891-4797-4d63-b6da-cf5cf566363d.JPG" width="300" alt="Hangman Design Start Game">
+      <img src="https://user-images.githubusercontent.com/64873698/131227623-cd5cb41d-8985-411b-89c2-5ed54fd645b5.JPG" width="300" alt="Hangman Design Mid Game">
 </p>
 
 <p>
