@@ -7,12 +7,26 @@ background: radial-gradient(circle, rgba(132,165,171,0.8694215044173984) 23%, rg
   border-style: solid;
   border-color: rgba(120,55,55,.5);
   border-width: 5%;
-  width: 20%;
+  width: 40%;
   margin: 5%;
+}
+
+#maxWrong {
+  font-size: large;
+  padding-right: 1%;
+}
+
+#mistakes {
+  font-weight: bold;
+  font-size: x-large;
+  text-decoration: underline;
 }
 
 .text1 {
    padding: 90% 0;
+   font-family: Helvetica, Sans-Serif;
+   color: #444444;
+   font-size: large;
 }
 
 .card-text {
@@ -20,6 +34,14 @@ background: radial-gradient(circle, rgba(132,165,171,0.8694215044173984) 23%, rg
   border-style: solid;
   border-color: rgba(120,55,55,.1);
   padding: 2% 0 2% 0;
+  font-size: 115%;
+}
+
+#guesses {
+  font-weight: bold;
+  font-size: 120%;
+  padding-right: 3%;
+  text-decoration: underline;
 }
 
 #title-card {
@@ -66,3 +88,4 @@ button:hover {
 .keyboard-button:hover {
    background-image: radial-gradient(circle, #b2b8c6, #818792, #656a73);
 }
+
