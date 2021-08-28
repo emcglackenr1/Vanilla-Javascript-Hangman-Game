@@ -3,9 +3,6 @@
       <img src="https://user-images.githubusercontent.com/64873698/131227623-cd5cb41d-8985-411b-89c2-5ed54fd645b5.JPG" width="200" alt="Hangman Design Mid Game">
 </p>
 
-
-
-
 <p>
 <h1> Javascript-Hangman-Game </h1>
 Available to view here: https://emcglackenr1.github.io/Vanilla-Javascript-Hangman-Game/
@@ -17,16 +14,28 @@ Pure JS Hangman Game. Inspired by Codepen projects such as:
 and
 <a href="https://codepen.io/mevko">mevko.</a>
 </p>
+
 <p>
   As well as content from: Isaacks, J. (2018) <a href="https://www.manning.com/books/get-programming-with-javascript-next"><i> Get Programming with JavaScript Next</i></a>
 </p>
 
 <p>
-
 I am currently in the process of adding to this and editing it.  
+I have currently only made a few simple changes to the art, styling and code I found. I created images in <b> Adobe illustrator</b> that can be seen below. 
+</p>
 
-I have currently only made a few simple changes to the art, styling and code I found. I created images in <b> Adobe illustrator</b> that can be seen below.
+<h3> Keyboard </h3>
 
+The site is responsive so that it works on any type of device. The layout, text and image size adjust to maintain usability. One example of this can be seen in the keyboard design:
+
+<p align="center">
+<b> Keyboard desktop </b>
+      <img src="https://user-images.githubusercontent.com/64873698/131227878-a9928c98-ac76-44d0-9605-9083e8ee0c04.JPG" width="500" alt="Keyboard desktop">
+
+<b> Keyboard mobile </b>
+      <img src="https://user-images.githubusercontent.com/64873698/131227845-e89ca6c7-63db-4786-b8d1-06ed86469ee6.JPG" width="200" alt="Keyboard mobile">
+
+</p>
 
 <h3> Hangman Art </h3>
 
