@@ -31,9 +31,9 @@ I have currently only made a few simple changes to the art, styling and code I f
 
 <table align="center">
   <tr>
-        <th> 1 Guess </th>
-      <th> 2 Guesses </th>
-    <th> 3 Guesses </th>
+        <th> 0 Mistakes </th>
+      <th> 1 Mistakes </th>
+    <th> 2 Mistakes </th>
   </tr>
 <tr>
   
