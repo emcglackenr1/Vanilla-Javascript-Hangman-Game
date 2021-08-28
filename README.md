@@ -10,7 +10,7 @@
 Available to view here: https://emcglackenr1.github.io/Vanilla-Javascript-Hangman-Game/
 </p>
 <p>
-Pure Javavascript Hangman Game. Inspired by Codepen projects such as: 
+Pure JS Hangman Game. Inspired by Codepen projects such as: 
 <a href="https://codepen.io/simonjsuh">simonjsuh</a>,
 <a href="https://codepen.io/tallulahh">tallulahh</a>
 and
