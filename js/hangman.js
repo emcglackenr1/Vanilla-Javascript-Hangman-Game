@@ -1,19 +1,6 @@
-var programming_languages = [
-	"python",
-	"javascript",
-	"mongodb",
-	"json",
-	"java",
-	"html",
-	"css",
-	"c",
-	"csharp",
-	"golang",
-	"kotlin",
-	"php",
-	"sql",
-	"ruby"
+var Game_Word = ["witch","worm","yard","angel","nose","truck","peanut","balloon","cube","street","flute","foundation","cardboard","ball","car","bird","stick","apple"
 ]
+
 
 let answer = '';
 let maxWrong = 6;
@@ -22,14 +9,14 @@ let guessed = [];
 let wordStatus = null;
 
 function randomWord() {
-  answer = programming_languages[Math.floor(Math.random() * programming_languages.length)];
+answer = Game_Word[Math.floor(Math.random() * Game_Word.length)];
 }
 
 function generateButtons() {
   let buttonsHTML = 'abcdefghijklmnopqrstuvwxyz'.split('').map(letter =>
     `
       <button
-        class="btn btn-lg btn-primary m-2"
+        class="keyboard-button"
         id='` + letter + `'
         onClick="handleGuess('` + letter + `')"
       >
@@ -61,14 +48,14 @@ function updateHangmanPicture() {
 
 function checkIfGameWon() {
   if (wordStatus === answer) {
-    document.getElementById('keyboard').innerHTML = 'You Won!!!';
+    document.getElementById('keyboard').innerHTML = '<span class="text1">You Win!</span>';
   }
 }
 
 function checkIfGameLost() {
   if (mistakes === maxWrong) {
-    document.getElementById('wordSpotlight').innerHTML = 'The answer was: ' + answer;
-    document.getElementById('keyboard').innerHTML = 'You Lost!!!';
+     document.getElementById('wordSpotlight').innerHTML = '<span class="text1">R.I.P. <br> You lose :( </span>';
+    document.getElementById('keyboard').innerHTML = '<span class="text1"> The answer was: </span>' + answer;
   }
 }
 
@@ -98,3 +85,7 @@ document.getElementById('maxWrong').innerHTML = maxWrong;
 randomWord();
 generateButtons();
 guessedWord();
+
+var guesses = maxWrong - Mistakes;
+
+

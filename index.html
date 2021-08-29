@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,19 +8,28 @@
 
   <!-- Bootstrap 4 CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Stylesheet.css">
+
 
   <title>Hangman</title>
 </head>
 <body>
-<div class="container">
-  <h1 class="text-center">Hangman</h1>
-  <div class="float-right">Wrong Guesses: <span id='mistakes'>0</span> of <span id='maxWrong'></span></div>
-  <div class="text-center">
-    <img id='hangmanPic' src="./images/0.jpg" alt="">
-    <p>Guess the Word:</p>
-    <p id="wordSpotlight">The word to be guessed goes here</p>
-    <div id="keyboard"></div>
-    <button class="btn btn-info" onClick="reset()">Reset</button>
+  <div class="container">
+    <div class="text-center"> 
+      <h1 class="card-text" id="title-card">Hangman</h1>
+    <div class="card-text">
+      <p class="card-text"> Guess the word letter by letter </p>
+        <div class="text-center"> <span id='mistakes'>0</span> of <span id='maxWrong'></span>Lives Used </div>
+
+       <img id='hangmanPic' src="./images/0.jpg" alt="Hangman Image">
+      
+        <!---Placeholder image for testing
+      <img id='hangmanPic' src="https://via.placeholder.com/300.png/09f/fff" alt="[.Hangman Image.]"> --> 
+      
+        <p id="wordSpotlight">The word to be guessed goes here</p>
+        <div id="keyboard"></div>
+        <button class="reset" onClick="reset()">Reset</button>
+    </div>
   </div> 
 </div>
 
