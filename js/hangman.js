@@ -49,6 +49,7 @@ function updateHangmanPicture() {
 function checkIfGameWon() {
   if (wordStatus === answer) {
     document.getElementById('keyboard').innerHTML = '<span class="text1">You Win!</span>';
+document.getElementById('hangmanPic').src ='./images/win.jpg';
   }
 }
 
