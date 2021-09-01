@@ -89,3 +89,11 @@ button:hover {
    background-image: radial-gradient(circle, #b2b8c6, #818792, #656a73);
 }
 
+keyboard-button:visited {
+   background-color: #444444 ; }
+
+keyboard-button:focus {
+   background-color: #444444 ;
+}
+
+
