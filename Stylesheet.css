@@ -74,13 +74,12 @@ button:hover {
 .keyboard-button {
     width: 8%;
     height: 5%;
-    text-size: x-large;
     border-radius: 20%;
   border-width: 5%;
  background-image: radial-gradient(circle, #c3c9d6, #b2b8c6, #9ea5b2, #8f96a2, #818792, #656a73);
   border-color: black;
     color: black;
-    font-size: large;
+    font-size: x-large;
     transform: translateY(-6px);
   margin: 1%;
 }
@@ -89,11 +88,28 @@ button:hover {
    background-image: radial-gradient(circle, #b2b8c6, #818792, #656a73);
 }
 
-keyboard-button:visited {
-   background-color: yellow ; }
+.keyboard-button:visited {
+   background-color: yellow; 
+}
 
-keyboard-button:focus {
+.keyboard-button:focus {
    background-color: red ;
 }
 
+
+
+
+@media screen and (min-width: 1024px) {
+  .keyboard {
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    
+   .keyboard-button {
+    width: 20%;
+    height: 15%;
+    border-radius: 10%;
+    border-width: 2%;
+    }
+}
 
