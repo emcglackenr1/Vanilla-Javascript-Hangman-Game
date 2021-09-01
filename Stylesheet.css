@@ -88,28 +88,12 @@ button:hover {
    background-image: radial-gradient(circle, #b2b8c6, #818792, #656a73);
 }
 
-.keyboard-button:visited {
-   background-color: yellow; 
+.keyboard-button:disabled,
+.keyboard-button[disabled] {
+  background-color: #cccccc;
+  border-color: #7575a3;
+  color: #7575a3;
 }
 
-.keyboard-button:focus {
-   background-color: red ;
-}
 
-
-
-
-@media screen and (min-width: 1024px) {
-  .keyboard {
-    margin-right: 0;
-    margin-left: 0;
-    width: 100%;
-    
-   .keyboard-button {
-    width: 20%;
-    height: 15%;
-    border-radius: 10%;
-    border-width: 2%;
-    }
-}
 
