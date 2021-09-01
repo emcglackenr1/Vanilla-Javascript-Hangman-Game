@@ -90,10 +90,10 @@ button:hover {
 }
 
 keyboard-button:visited {
-   background-color: #444444 ; }
+   background-color: yellow ; }
 
 keyboard-button:focus {
-   background-color: #444444 ;
+   background-color: red ;
 }
 
 
