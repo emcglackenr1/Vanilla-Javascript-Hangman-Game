@@ -1,4 +1,4 @@
-.container {
+.container2 {
   display: grid;
   grid-template-rows: .7fr 3fr .2fr;
   grid-template-columns: .8fr 6fr .8fr;
@@ -60,7 +60,8 @@ background: radial-gradient(circle, rgba(132,165,171,0.8694215044173984) 23%, rg
 #title-card {
   grid-area: header;
   background: rgba(255,255,255,.5);
-  font-size: 300%;
+  font-size: 20%;
+  text-align: center;
   position: top;
   display: block;
   height: 40px;
@@ -69,7 +70,7 @@ background: radial-gradient(circle, rgba(132,165,171,0.8694215044173984) 23%, rg
 
 #game {
   grid-area: game;
-  height: 100%; 
+  height: 80%; 
 }
 
 
@@ -83,7 +84,7 @@ background: radial-gradient(circle, rgba(132,165,171,0.8694215044173984) 23%, rg
 
 #footer {
   grid-area: footer;
-  height: 100%;
+  width: 100%;
 }
 
 .reset 
@@ -133,7 +134,7 @@ button:hover {
 
 /* Responsive columns 85rem max */
 @media screen and (max-width: 85rem) {
-.container {
+.container2 {
   display: grid;
   grid-template-rows: .8fr 5fr .1fr;
   grid-template-columns: .8fr 10fr .8fr;
@@ -148,7 +149,7 @@ button:hover {
   
 /* Responsive columns 50rem max *//* Responsive columns 85rem max */
 @media screen and (max-width: 50rem) {
-  .container {
+  .container2 {
     display: grid;
     grid-template-rows: .3fr 5fr .1fr;
     grid-template-columns: .8fr 10fr .8fr;
