@@ -39,19 +39,12 @@ The site is responsive so that it works on any type of device. The layout, text 
 </p>
 
 <p>
-The keys also respond to user interaction by changing colour when the user hovers over them:
-  </p>
-  
-  <p align="center">
-<img src="https://user-images.githubusercontent.com/64873698/131762127-673bb335-e293-47eb-8cb8-b851cf97363f.jpg" width="200" alt="Demonstrating Hover1">
-  <img src="https://user-images.githubusercontent.com/64873698/131762119-5faaced9-2ebb-4dce-8b4c-a649168870e9.jpg" width="200" alt="Demonstrating Hover2">
-</p>
-  
-  <p>
-  And fading when they have already been selected. Once a letter is guessed using the keyboard there would be no need to guess the letter a second time. So it is disabled. By fading previously selected letters the user is reminded which they have already guessed.
+The keys also fade when they have already been selected. Once a letter is guessed using the keyboard there would be no need to guess the letter a second time. So it is disabled. By fading previously selected letters the user is reminded which they have already guessed.
   </p>
     <p align="center">
-  <img src="https://user-images.githubusercontent.com/64873698/131762185-0c8c0004-f433-4d89-95a1-0db46af14d48.JPG" width="auto" alt="disabled buttons">
+  <img src="https://user-images.githubusercontent.com/64873698/131762880-efa38eb3-ccf6-4d1a-8f5c-a26794aeb36c.JPG" width="200" alt="disabled buttons demo">
+    <img src="https://user-images.githubusercontent.com/64873698/131762886-d0770866-8cb1-4a89-9c62-f6e0383eeac4.jpg" width="200" alt="disabled buttons demo">
+    <img src="https://user-images.githubusercontent.com/64873698/131762888-5aa5e2e4-19d7-497b-8d11-f4fbe3208a28.jpg" width="200" alt="disabled buttons demo">
    </p>
 
 <p>
