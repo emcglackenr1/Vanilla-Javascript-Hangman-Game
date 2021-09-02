@@ -1,18 +1,5 @@
-.container2 {
-  display: grid;
-  grid-template-rows: .7fr 3fr .2fr;
-  grid-template-columns: .8fr 6fr .8fr;
-  grid-template-areas: 
-    "header header header"
-    "aside game aside1"
-    "footer footer footer";
-  grid-gap: 0;
-  height: 100%;
-}
-
-
 body {
-background: rgb(132,165,171);
+  background: rgb(132,165,171);
 background: radial-gradient(circle, rgba(132,165,171,0.8694215044173984) 23%, rgba(95,95,175,1) 73%, rgba(82,80,117,1) 92%);  
 }
 
@@ -36,6 +23,7 @@ background: radial-gradient(circle, rgba(132,165,171,0.8694215044173984) 23%, rg
 }
 
 .text1 {
+   padding: 90% 0;
    font-family: Helvetica, Sans-Serif;
    color: #444444;
    font-size: large;
@@ -57,33 +45,10 @@ background: radial-gradient(circle, rgba(132,165,171,0.8694215044173984) 23%, rg
 }
 
 #title-card {
-  grid-area: header;
   background: rgba(255,255,255,.5);
-  font-size: 20%;
-  text-align: center;
-  position: top;
-  display: block;
-  height: 40px;
-  width: 100%;
-}
-
-#game {
-  grid-area: game;
-  height: 80%; 
-}
-
-
-.aside{  /* Created to centre the content viewpoint for the user */
-  grid-area: aside;
-}
-
-.aside1{ /* Created to centre the content viewpoint for the user */
-  grid-area: aside1;
-}
-
-#footer {
-  grid-area: footer;
-  width: 100%;
+  margin: 0% -20% 0 -20%;
+  padding: 2% 0 2% 0;
+  font-size: 300%;
 }
 
 .reset 
@@ -129,34 +94,3 @@ button:hover {
   border-color: #7575a3;
   color: #7575a3;
 }
-
-
-/* Responsive columns 85rem max */
-@media screen and (max-width: 85rem) {
-.container2 {
-  display: grid;
-  grid-template-rows: .8fr 5fr .1fr;
-  grid-template-columns: .8fr 10fr .8fr;
-  grid-template-areas: 
-    "header header header"
-    "aside game aside1"
-    "footer footer footer";
-  grid-gap: 0;
-  height: 100%;
-}
-  
-  
-/* Responsive columns 50rem max *//* Responsive columns 85rem max */
-@media screen and (max-width: 50rem) {
-  .container2 {
-    display: grid;
-    grid-template-rows: .3fr 5fr .1fr;
-    grid-template-columns: .8fr 10fr .8fr;
-    grid-template-areas: 
-      "header header header"
-      "aside game aside1"
-      "footer footer footer";
-    grid-gap: 0;
-    height: 100%;
-  }
-
