@@ -19,7 +19,6 @@ and
 
 <p>
 I am currently in the process of adding to this and editing it.  
-I have currently only made a few simple changes to the art, styling and code I found. I created images in <b> Adobe illustrator</b> that can be seen below. 
 </p>
 
 <p>
@@ -38,6 +37,22 @@ The site is responsive so that it works on any type of device. The layout, text 
    </tr>
   </table>
 </p>
+
+<p>
+The keys also respond to user interaction by changing colour when the user hovers over them:
+  </p>
+  
+  <p align="center">
+<img src="https://user-images.githubusercontent.com/64873698/131762127-673bb335-e293-47eb-8cb8-b851cf97363f.jpg" width="200" alt="Demonstrating Hover1">
+  <img src="https://user-images.githubusercontent.com/64873698/131762119-5faaced9-2ebb-4dce-8b4c-a649168870e9.jpg" width="200" alt="Demonstrating Hover2">
+</p>
+  
+  <p>
+  And fading when they have already been selected. Once a letter is guessed using the keyboard there would be no need to guess the letter a second time. So it is disabled. By fading previously selected letters the user is reminded which they have already guessed.
+  </p>
+    <p align="center">
+  <img src="https://user-images.githubusercontent.com/64873698/131762185-0c8c0004-f433-4d89-95a1-0db46af14d48.JPG" width="auto" alt="disabled buttons">
+   </p>
 
 <p>
   
