@@ -39,7 +39,7 @@ The site is responsive so that it works on any type of device. The layout, text 
 </p>
 
 <p>
-The keys also fade when they have already been selected. Once a letter is guessed using the keyboard there would be no need to guess the letter a second time. So it is disabled. By fading previously selected letters the user is reminded which they have already guessed.
+The keys also fade when they have already been selected. Once a letter is guessed using the keyboard it is disabled and faded. By fading previously selected letters the user is reminded which they have already guessed.
   </p>
     <p align="center">
     <img src="https://user-images.githubusercontent.com/64873698/131762886-d0770866-8cb1-4a89-9c62-f6e0383eeac4.jpg" width="200" alt="disabled buttons demo">
