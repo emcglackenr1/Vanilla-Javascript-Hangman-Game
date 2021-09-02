@@ -8,7 +8,6 @@
     "footer footer footer";
   grid-gap: 0;
   height: 100%;
-  float: center;
 }
 
 
@@ -37,7 +36,6 @@ background: radial-gradient(circle, rgba(132,165,171,0.8694215044173984) 23%, rg
 }
 
 .text1 {
-   padding: 90% 0;
    font-family: Helvetica, Sans-Serif;
    color: #444444;
    font-size: large;
