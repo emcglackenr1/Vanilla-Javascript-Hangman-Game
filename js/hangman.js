@@ -1,35 +1,63 @@
-var Game_Word = ["witch","worm","yard","angel","nose","truck","peanut","balloon","cube","street","flute","foundation","cardboard","ball","car","bird","stick","apple"
-]
+var Game_Word = [
+  "witch",
+  "worm",
+  "yard",
+  "angel",
+  "nose",
+  "truck",
+  "peanut",
+  "balloon",
+  "cube",
+  "street",
+  "flute",
+  "foundation",
+  "cardboard",
+  "ball",
+  "car",
+  "bird",
+  "stick",
+  "apple",
+];
 
-
-let answer = '';
+let answer = "";
 let maxWrong = 6;
 let mistakes = 0;
 let guessed = [];
 let wordStatus = null;
 
 function randomWord() {
-answer = Game_Word[Math.floor(Math.random() * Game_Word.length)];
+  answer = Game_Word[Math.floor(Math.random() * Game_Word.length)];
 }
 
 function generateButtons() {
-  let buttonsHTML = 'abcdefghijklmnopqrstuvwxyz'.split('').map(letter =>
-    `
+  let buttonsHTML = "abcdefghijklmnopqrstuvwxyz"
+    .split("")
+    .map(
+      (letter) =>
+        `
       <button
         class="keyboard-button"
-        id='` + letter + `'
-        onClick="handleGuess('` + letter + `')"
+        id='` +
+        letter +
+        `'
+        onClick="handleGuess('` +
+        letter +
+        `')"
       >
-        ` + letter + `
+        ` +
+        letter +
+        `
       </button>
-    `).join('');
+    `
+    )
+    .join("");
 
-  document.getElementById('keyboard').innerHTML = buttonsHTML;
+  document.getElementById("keyboard").innerHTML = buttonsHTML;
 }
 
 function handleGuess(chosenLetter) {
   guessed.indexOf(chosenLetter) === -1 ? guessed.push(chosenLetter) : null;
-  document.getElementById(chosenLetter).setAttribute('disabled', true);
+  document.getElementById(chosenLetter).setAttribute("disabled", true);
 
   if (answer.indexOf(chosenLetter) >= 0) {
     guessedWord();
@@ -43,39 +71,44 @@ function handleGuess(chosenLetter) {
 }
 
 function updateHangmanPicture() {
-  document.getElementById('hangmanPic').src = './images/' + mistakes + '.jpg';
+  document.getElementById("hangmanPic").src = "./images/" + mistakes + ".jpg";
 }
 
 function checkIfGameWon() {
   if (wordStatus === answer) {
-    document.getElementById('keyboard').innerHTML = '<span class="text1">You Win!</span>';
-document.getElementById('hangmanPic').src ='./images/win.jpg';
+    document.getElementById("keyboard").innerHTML =
+      '<span class="text1">You Win!</span>';
+    document.getElementById("hangmanPic").src = "./images/win.jpg";
   }
 }
 
 function checkIfGameLost() {
   if (mistakes === maxWrong) {
-    document.getElementById('hangmanPic').src ='./images/lost.jpg';
-     document.getElementById('wordSpotlight').innerHTML = '<span class="text1">R.I.P. <br> You lose :( </span>';
-    document.getElementById('keyboard').innerHTML = '<span class="text1"> The answer was: </span>' + answer;
-
+    document.getElementById("hangmanPic").src = "./images/lost.jpg";
+    document.getElementById("wordSpotlight").innerHTML =
+      '<span class="text1">R.I.P. <br> You lose :( </span>';
+    document.getElementById("keyboard").innerHTML =
+      '<span class="text1"> The answer was: </span>' + answer;
   }
 }
 
 function guessedWord() {
-  wordStatus = answer.split('').map(letter => (guessed.indexOf(letter) >= 0 ? letter : " _ ")).join('');
+  wordStatus = answer
+    .split("")
+    .map((letter) => (guessed.indexOf(letter) >= 0 ? letter : " _ "))
+    .join("");
 
-  document.getElementById('wordSpotlight').innerHTML = wordStatus;
+  document.getElementById("wordSpotlight").innerHTML = wordStatus;
 }
 
 function updateMistakes() {
-  document.getElementById('mistakes').innerHTML = mistakes;
+  document.getElementById("mistakes").innerHTML = mistakes;
 }
 
 function reset() {
   mistakes = 0;
   guessed = [];
-  document.getElementById('hangmanPic').src = './images/0.jpg';
+  document.getElementById("hangmanPic").src = "./images/0.jpg";
 
   randomWord();
   guessedWord();
@@ -83,12 +116,10 @@ function reset() {
   generateButtons();
 }
 
-document.getElementById('maxWrong').innerHTML = maxWrong;
+document.getElementById("maxWrong").innerHTML = maxWrong;
 
 randomWord();
 generateButtons();
 guessedWord();
 
 var guesses = maxWrong - Mistakes;
-
-
